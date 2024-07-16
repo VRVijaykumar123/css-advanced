@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - Dribble Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #24292e;
+            padding: 10px 20px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .content p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .explore-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .explore-item {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .explore-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dribble Clone</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h2>Explore Designs</h2>
+        <p>Discover a wide range of creative designs from top designers around the world. Click on a design to view more details.</p>
+        <div class="explore-grid">
+            <div class="explore-item">
+                <img src="e1.jpg" alt="Design 1">
+                <h3>Widakk Design</h3>
+                <p>by Srdjan Vidakovic</p>
+            </div>
+            <div class="explore-item">
+                <img src="e2.png" alt="Design 2">
+                <h3>Duolingo Design Streetwear</h3>
+                <p>Dingbat Co.</p>
+            </div>
+            <div class="explore-item">
+                <img src="e3.jpg" alt="Design 3">
+                <h3>Rise Branding Design</h3>
+                <p>by Sam Hox</p>
+            </div>
+            <div class="explore-item">
+                <img src="e4.jpg" alt="Design 3">
+                <h3>Blockchain: web design, landing page</h3>
+                <p>by Daniel Sun for heartbeat</p>
+            </div>
+            <div class="explore-item">
+                <img src="e5.png" alt="Design 3">
+                <h3>Art Institute Blog Design</h3>
+                <p>by tubik</p>
+            </div>
+            <div class="explore-item">
+                <img src="e6.jpg" alt="Design 3">
+                <h3>Coffee Package Design</h3>
+                <p>by Shakuro Graphics</p>
+            </div>
+            <div class="explore-item">
+                <img src="e7.jpg" alt="Design 3">
+                <h3>Logo Design</h3>
+                <p>by Kevin Kroneberger</p>
+            </div>
+            <div class="explore-item">
+                <img src="e8.png" alt="Design 3">
+                <h3>Gate Protocol / Web Design</h3>
+                <p>by Mike | Creative Mints</p>
+            </div>
+            <!-- Repeat for more designs -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Dribble Clone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
