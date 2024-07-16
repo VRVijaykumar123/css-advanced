@@ -1,5 +1,5 @@
 ##home.html
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -150,7 +150,6 @@
     </footer>
 </body>
 </html>
-```
 ##about.html
 ```
 <!DOCTYPE html>
@@ -493,3 +492,4 @@
 </html>
 ```
 ##OUTPUT:
+![alt-text]OUTPUT3HTMLJAVA.png
