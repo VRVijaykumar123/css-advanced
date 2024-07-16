@@ -1,6 +1,7 @@
 # css-advanced
 ##home.html
-```html
+```
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -151,8 +152,10 @@
     </footer>
 </body>
 </html>
+
 ##about.html
 ```
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -236,6 +239,7 @@
 ```
 ##login.html
 ```
+html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -355,6 +359,8 @@
 ```
 ##explore.html
 ```
+html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -493,4 +499,5 @@
 </html>
 ```
 ##OUTPUT:
+
 ![alt-text]OUTPUT3HTMLJAVA.png
